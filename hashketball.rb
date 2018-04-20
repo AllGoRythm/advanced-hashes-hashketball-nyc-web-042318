@@ -120,7 +120,7 @@ end
 
 def num_points_scored(name)
 
-  game_hash.collect do |variable|
+  game_hash.each do |team, details|
 
   end
 
